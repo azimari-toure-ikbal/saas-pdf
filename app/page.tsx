@@ -10,16 +10,17 @@ export default function Home() {
       <MaxWidthWrapper classname="mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center">
         <div className="mx-auto mb-4 flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white px-7 py-2 shadow-md backdrop-blur transition-all hover:border-gray-300 hover:bg-white/50">
           <p className="text-sm font-semibold text-gray-700">
-            TalkPDF is now public !
+            TalkPDF est disponible !
           </p>
         </div>
         <h1 className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl">
-          Chat with your <span className="text-emerald-600">documents</span> in
-          seconds.
+          Dialoguez avec vos <span className="text-emerald-600">documents</span>{" "}
+          dès maintenant.
         </h1>
         <p className="mt-5 max-w-prose text-zinc-700 sm:text-xl">
-          TalkPDF allows you to have conversation with any PDF document. Simply
-          upload your file and start asking questions right away.
+          TalkPDF vous permet d'avoir une conversation avec n'importe quel
+          document PDF. Il vous suffit de télécharger votre fichier et commencez
+          à poser des questions immédiatement.
         </p>
         <Link
           href={"/dashboard"}
@@ -29,7 +30,7 @@ export default function Home() {
             className: "mt-5",
           })}
         >
-          Get started <ArrowRight className="ml-2 h-5 w-5" />
+          Inscription <ArrowRight className="ml-2 h-5 w-5" />
         </Link>
       </MaxWidthWrapper>
 
@@ -87,10 +88,10 @@ export default function Home() {
         <div className="mb-12 px-6 lg:px-8">
           <div className="mx-auto max-w-2xl sm:text-center">
             <h2 className="mt-2 text-4xl font-bold text-gray-900 sm:text-5xl">
-              Start chatting in minutes
+              Commencez le dialogue
             </h2>
             <p className="mt-4 text-lg text-gray-600">
-              Chatting to your PDF files has never been easier than with
+              Tirer le maximum de vos documents n'a jamais été si simple qu'avec
               TalkPDF.
             </p>
           </div>

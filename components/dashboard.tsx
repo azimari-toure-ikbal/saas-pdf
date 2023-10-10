@@ -34,7 +34,7 @@ const Dashboard: FC<DashboardProps> = ({}) => {
   return (
     <main className="mx-auto max-w-7xl md:p-10">
       <div className="mt-8 flex flex-col items-start justify-between gap-4 border-b border-primary pb-5 sm:flex-row sm:items-center sm:gap-0">
-        <h1 className="mb-3 text-5xl font-bold text-gray-900">My files</h1>
+        <h1 className="mb-3 text-5xl font-bold text-gray-900">Mes documents</h1>
         <UploadButton />
       </div>
 
@@ -76,7 +76,7 @@ const Dashboard: FC<DashboardProps> = ({}) => {
 
                   <div className="flex items-center gap-2">
                     <MessageSquare className="h-4 w-4" />
-                    messages count here
+                    ...
                   </div>
 
                   <Button
@@ -100,8 +100,8 @@ const Dashboard: FC<DashboardProps> = ({}) => {
       ) : (
         <div className="mt-16 flex flex-col items-center gap-2">
           <Ghost className="h-8 w-8 text-zinc-800" />
-          <h3 className="text-xl font-semibold">Pretty empty around here</h3>
-          <p>Let&apos;s upload your fist pdf</p>
+          <h3 className="text-xl font-semibold">C'est plutôt vide ici</h3>
+          <p>Importer votre premier pdf</p>
         </div>
       )}
     </main>
